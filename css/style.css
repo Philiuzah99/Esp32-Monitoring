@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:white;
+    margin: 0;
+    padding: 0;
+ }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    padding: 10px;
+}
+.logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .logo .red {
+            color: red;
+        }
+
+        .logo .blue {
+            color: blue;
+        }
+
+.logo img {
+    height: 40px;
+}
+
+.menu {
+    position: relative;
+}
+
+.hamburger {
+    font-size: 24px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: grey;
+    border: 1px solid #ddd;
+    width: 120px;
+    border-radius: 10px;
+}
+
+
+.dropdown a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+button:hover{
+    color:blue;
+}
+input[type="text"],input[type="email"] ,input[type="password"]{
+    padding:10px;
+    margin: 5px 0 5px 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+input[type="text"]:focus,input[type="email"]:focus, input[type="password"]:focus{
+    border-color: blue;
+    outline: none;
+}
+p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}
+p a{
+    color:blue;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+}
+button[type="submit"]{
+    width: 100%;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }
